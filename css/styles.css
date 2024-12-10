@@ -1,0 +1,167 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #000; /* All black background */
+    color: white;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Intro Section */
+  #intro {
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    border-bottom: 4px solid #3f51b5; /* Colorful border for a sleek look */
+  }
+  
+  #intro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Darker overlay to make text pop */
+    z-index: -1;
+  }
+  
+  #intro h1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: white; /* Creative accent color */
+  }
+  
+  #intro p {
+    font-size: 22px;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    color: white; /* Same accent color */
+  }
+  
+  /* Team Section */
+  #team {
+    padding: 60px 20px;
+    background-color: #121212; /* Keeping it black for modern look */
+    color: white;
+  }
+  
+  #team h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #03a9f4; /* Bright blue accent */
+  }
+  
+  .team-member {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .team-member h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #ff4081; /* Vibrant pink for names */
+  }
+  
+  .team-member p {
+    font-size: 18px;
+    color: #ccc;
+  }
+  
+  .team-member a {
+    color: #03a9f4; /* Bright blue for links */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .team-member a:hover {
+    text-decoration: underline;
+    color: #ff4081; /* Hover effect color change */
+  }
+  
+  /* Certification Image Section */
+  .certification {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .certification img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .certification img:hover {
+    transform: scale(1.005); /* Hover scale effect */
+  }
+  
+  .certification h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #03a9f4; /* Blue accent for headers */
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 60px 20px;
+    background-color: #212121; /* Slightly lighter dark section */
+    color: white;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #03a9f4; /* Consistent blue accent */
+  }
+  
+  #contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #contact p a {
+    color: #03a9f4;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #contact p a:hover {
+    text-decoration: underline;
+    color: #ff4081; /* Hover effect with pink */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #777;
+  }
+  
